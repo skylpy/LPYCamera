@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Js8-hy-lnv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="kwr-xe-Fxo">
+            <objects>
+                <navigationController id="Js8-hy-lnv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hRq-eV-QXI">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Z9J-nt-u2W" kind="relationship" relationship="rootViewController" id="qjx-c6-m6v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tX7-qV-kfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-968" y="-12"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="l7B-Eh-jcy">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="Z9J-nt-u2W" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gU8-gM-YLz"/>
+                        <viewControllerLayoutGuide type="bottom" id="HI3-Sn-K0d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vFE-tq-bPv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kug-HR-IG6">
+                                <rect key="frame" x="137.5" y="308.5" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="VWi-0g-220"/>
+                                    <constraint firstAttribute="height" constant="50" id="bgF-B6-BPf"/>
+                                </constraints>
+                                <state key="normal" title="相机"/>
+                                <connections>
+                                    <action selector="push:" destination="Z9J-nt-u2W" eventType="touchUpInside" id="WjW-83-V3y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kug-HR-IG6" firstAttribute="centerX" secondItem="vFE-tq-bPv" secondAttribute="centerX" id="CLp-06-qSe"/>
+                            <constraint firstItem="kug-HR-IG6" firstAttribute="centerY" secondItem="vFE-tq-bPv" secondAttribute="centerY" id="cAd-KJ-S2E"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uPe-9g-zms"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elh-Ia-51J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292" y="-127"/>
+        </scene>
+    </scenes>
+</document>
