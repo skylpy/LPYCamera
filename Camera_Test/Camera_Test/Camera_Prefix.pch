@@ -1,0 +1,22 @@
+//
+//  Camera_Prefix.pch
+//  Camera_Test
+//
+//  Created by aaron on 2018/11/9.
+//  Copyright © 2018年 aaron. All rights reserved.
+//
+
+#ifndef Camera_Prefix_pch
+#define Camera_Prefix_pch
+
+// 颜色
+#define UIColor(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF)) / 255.0 \
+alpha:alphaValue]
+
+#define KK_Width [UIScreen mainScreen].bounds.size.width
+#define KK_Height [UIScreen mainScreen].bounds.size.height
+#import "UIView+CCHUD.h"
+#import "UIView+CCAdditions.h"
+#endif /* Camera_Prefix_pch */

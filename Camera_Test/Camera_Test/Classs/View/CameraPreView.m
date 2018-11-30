@@ -32,4 +32,10 @@
 + (Class)layerClass {
     return [AVCaptureVideoPreviewLayer class];
 }
+
+- (CGPoint)captureDevicePointForPoint:(CGPoint)point {
+    AVCaptureVideoPreviewLayer *layer = (AVCaptureVideoPreviewLayer *)self.layer;
+    return [layer captureDevicePointOfInterestForPoint:point];
+}
+
 @end

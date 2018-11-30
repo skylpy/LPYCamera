@@ -16,9 +16,12 @@
 		9356BB512194142C000FD83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB502194142C000FD83F /* main.m */; };
 		9356BB5B2194142C000FD83F /* Camera_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB5A2194142C000FD83F /* Camera_TestTests.m */; };
 		9356BB662194142C000FD83F /* Camera_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB652194142C000FD83F /* Camera_TestUITests.m */; };
-		9356BB75219414D9000FD83F /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB74219414D9000FD83F /* CameraViewController.m */; };
-		9356BB78219416CD000FD83F /* CameraPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB77219416CD000FD83F /* CameraPreView.m */; };
 		9356BB7B219423E3000FD83F /* CCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356BB7A219423E3000FD83F /* CCBaseViewController.m */; };
+		936D069F219567E900E3D395 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D0699219567E800E3D395 /* CameraViewController.m */; };
+		936D06A0219567E900E3D395 /* CameraPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D069E219567E900E3D395 /* CameraPreView.m */; };
+		936D06A32195683000E3D395 /* LPYCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D06A22195683000E3D395 /* LPYCameraView.m */; };
+		936D06AA21956CAE00E3D395 /* UIView+CCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D06A721956CAE00E3D395 /* UIView+CCAdditions.m */; };
+		936D06AB21956CAE00E3D395 /* UIView+CCHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D06A921956CAE00E3D395 /* UIView+CCHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +61,20 @@
 		9356BB612194142C000FD83F /* Camera_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Camera_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9356BB652194142C000FD83F /* Camera_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camera_TestUITests.m; sourceTree = "<group>"; };
 		9356BB672194142C000FD83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9356BB73219414D9000FD83F /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		9356BB74219414D9000FD83F /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		9356BB76219416CD000FD83F /* CameraPreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPreView.h; sourceTree = "<group>"; };
-		9356BB77219416CD000FD83F /* CameraPreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraPreView.m; sourceTree = "<group>"; };
 		9356BB79219423E3000FD83F /* CCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBaseViewController.h; sourceTree = "<group>"; };
 		9356BB7A219423E3000FD83F /* CCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBaseViewController.m; sourceTree = "<group>"; };
+		936D0696219538AD00E3D395 /* Camera_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Camera_Test.entitlements; sourceTree = "<group>"; };
+		936D0699219567E800E3D395 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		936D069A219567E800E3D395 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		936D069D219567E900E3D395 /* CameraPreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPreView.h; sourceTree = "<group>"; };
+		936D069E219567E900E3D395 /* CameraPreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPreView.m; sourceTree = "<group>"; };
+		936D06A12195683000E3D395 /* LPYCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPYCameraView.h; sourceTree = "<group>"; };
+		936D06A22195683000E3D395 /* LPYCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPYCameraView.m; sourceTree = "<group>"; };
+		936D06A4219569D700E3D395 /* Camera_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera_Prefix.pch; sourceTree = "<group>"; };
+		936D06A621956CAE00E3D395 /* UIView+CCHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCHUD.h"; sourceTree = "<group>"; };
+		936D06A721956CAE00E3D395 /* UIView+CCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCAdditions.m"; sourceTree = "<group>"; };
+		936D06A821956CAE00E3D395 /* UIView+CCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCAdditions.h"; sourceTree = "<group>"; };
+		936D06A921956CAE00E3D395 /* UIView+CCHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +145,8 @@
 		9356BB4021941429000FD83F /* Camera_Test */ = {
 			isa = PBXGroup;
 			children = (
+				936D0697219567E800E3D395 /* Classs */,
+				936D0696219538AD00E3D395 /* Camera_Test.entitlements */,
 				9356BB79219423E3000FD83F /* CCBaseViewController.h */,
 				9356BB7A219423E3000FD83F /* CCBaseViewController.m */,
 				9356BB4121941429000FD83F /* AppDelegate.h */,
@@ -145,10 +158,7 @@
 				9356BB4C2194142C000FD83F /* LaunchScreen.storyboard */,
 				9356BB4F2194142C000FD83F /* Info.plist */,
 				9356BB502194142C000FD83F /* main.m */,
-				9356BB73219414D9000FD83F /* CameraViewController.h */,
-				9356BB74219414D9000FD83F /* CameraViewController.m */,
-				9356BB76219416CD000FD83F /* CameraPreView.h */,
-				9356BB77219416CD000FD83F /* CameraPreView.m */,
+				936D06A4219569D700E3D395 /* Camera_Prefix.pch */,
 			);
 			path = Camera_Test;
 			sourceTree = "<group>";
@@ -169,6 +179,55 @@
 				9356BB672194142C000FD83F /* Info.plist */,
 			);
 			path = Camera_TestUITests;
+			sourceTree = "<group>";
+		};
+		936D0697219567E800E3D395 /* Classs */ = {
+			isa = PBXGroup;
+			children = (
+				936D06A521956CAE00E3D395 /* Categories */,
+				936D0698219567E800E3D395 /* Controller */,
+				936D069B219567E800E3D395 /* Model */,
+				936D069C219567E800E3D395 /* View */,
+			);
+			path = Classs;
+			sourceTree = "<group>";
+		};
+		936D0698219567E800E3D395 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				936D069A219567E800E3D395 /* CameraViewController.h */,
+				936D0699219567E800E3D395 /* CameraViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		936D069B219567E800E3D395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		936D069C219567E800E3D395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				936D06A12195683000E3D395 /* LPYCameraView.h */,
+				936D06A22195683000E3D395 /* LPYCameraView.m */,
+				936D069D219567E900E3D395 /* CameraPreView.h */,
+				936D069E219567E900E3D395 /* CameraPreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		936D06A521956CAE00E3D395 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				936D06A621956CAE00E3D395 /* UIView+CCHUD.h */,
+				936D06A721956CAE00E3D395 /* UIView+CCAdditions.m */,
+				936D06A821956CAE00E3D395 /* UIView+CCAdditions.h */,
+				936D06A921956CAE00E3D395 /* UIView+CCHUD.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +294,23 @@
 		9356BB3621941429000FD83F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LPY;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = aaron;
 				TargetAttributes = {
 					9356BB3D21941429000FD83F = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					9356BB552194142C000FD83F = {
 						CreatedOnToolsVersion = 10.0;
@@ -342,10 +413,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936D06AA21956CAE00E3D395 /* UIView+CCAdditions.m in Sources */,
+				936D069F219567E900E3D395 /* CameraViewController.m in Sources */,
+				936D06A0219567E900E3D395 /* CameraPreView.m in Sources */,
 				9356BB4621941429000FD83F /* ViewController.m in Sources */,
-				9356BB78219416CD000FD83F /* CameraPreView.m in Sources */,
-				9356BB75219414D9000FD83F /* CameraViewController.m in Sources */,
 				9356BB512194142C000FD83F /* main.m in Sources */,
+				936D06AB21956CAE00E3D395 /* UIView+CCHUD.m in Sources */,
+				936D06A32195683000E3D395 /* LPYCameraView.m in Sources */,
 				9356BB4321941429000FD83F /* AppDelegate.m in Sources */,
 				9356BB7B219423E3000FD83F /* CCBaseViewController.m in Sources */,
 			);
@@ -521,6 +595,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23N35Y8B34;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/Camera_Test/Camera_Prefix.pch;
 				INFOPLIST_FILE = Camera_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,6 +615,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23N35Y8B34;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/Camera_Test/Camera_Prefix.pch;
 				INFOPLIST_FILE = Camera_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

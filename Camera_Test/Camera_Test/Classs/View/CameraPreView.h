@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) AVCaptureSession * captureSessionsion;
 
+- (CGPoint)captureDevicePointForPoint:(CGPoint)point;
 
 @end
 
